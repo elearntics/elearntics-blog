@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://elearntics.com
+url: elearntics.com
 root: '/'
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -39,7 +39,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
@@ -71,9 +71,16 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 plugins:
-- hexo-generator-cname
+  hexo-generator-cname
+  hexo-prism-plugin
+
 ## Themes: https://hexo.io/themes/
 theme: cactus
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'a11y-dark'
+  line_number: true    # default false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

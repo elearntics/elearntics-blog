@@ -35,4 +35,4 @@ We do not target, market to, or knowingly collect personal information from chil
 
 ## Contact
 
-Please contact us with any questions you may have at hello@elearntics.com.
+Please contact us with any questions you may have at hello@elearntics.com
