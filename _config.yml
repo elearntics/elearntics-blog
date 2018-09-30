@@ -75,7 +75,7 @@ plugins:
   hexo-prism-plugin
 
 ## Themes: https://hexo.io/themes/
-theme: cactus
+theme: elearntics-theme
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess

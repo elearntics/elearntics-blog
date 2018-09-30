@@ -1,0 +1,3 @@
+[submodule "themes/elearntics-theme"]
+	path = themes/elearntics-theme
+	url = https://github.com/elearntics/elearntics-theme.git
