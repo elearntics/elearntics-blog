@@ -79,7 +79,7 @@ theme: elearntics-theme
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
-  theme: 'a11y-dark'
+  theme: 'okaidia'
   line_number: true    # default false
 
 # Deployment
